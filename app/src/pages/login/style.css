@@ -1,0 +1,145 @@
+.login {
+    font-family: 'poppins';
+    background-color: #F1F3F6;
+    height: 100vh;
+}
+
+.login .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 30%;
+    height: 100vh;
+    background-color: white;
+    padding: 0px 25px;
+    gap: 55px;
+    min-width: 430px;
+}
+
+.content .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #555555;
+}
+
+.content .title div {
+    display: flex;
+    align-items: center;
+    color: #FF193D;
+    font-size: 60px;
+    gap: 15px;
+}
+
+.content .title div img {
+    width: 80px;
+}
+
+.content .data {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    color: #555555;
+    font-family: 'poppins-light';
+}
+
+.data .email,
+.password>p {
+    font-size: 18px;
+}
+
+.data .email>div,
+.password>div {
+    display: flex;
+    justify-content: space-between;
+    background-color: #F1F3F6;
+    border-radius: 10px;
+}
+
+.data input,
+.email input {
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    font-family: 'poppins-light';
+    color: #555555;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.data img,
+.email img {
+    width: 20px;
+}
+
+.data .email div>div,
+.password div>div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    background-color: #FF193D;
+    border-radius: 10px;
+}
+
+.content .login_or_signup {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.login_or_signup .login_now {
+    color: white;
+    background-color: #FF193D;
+}
+
+.login_or_signup .signup {
+    color: #FF193D;
+    background-color: white;
+}
+
+.login_or_signup .login_now,
+.signup {
+    cursor: pointer;
+    border: 2px solid #FF193D;
+    width: 100%;
+    border-radius: 10px;
+    outline: none;
+    padding: 17px;
+    font-weight: bolder;
+    font-size: 18px;
+    transition: 0.2s all;
+}
+
+.login_or_signup .login_now:hover,
+.signup:hover {
+    transform: scale(1.02);
+    box-shadow: 10px 10px 20px #ff193b71;
+}
+
+.login_or_signup .login_now:active,
+.signup:active {
+    transform: scale(1);
+}
+
+.login_or_signup .or {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.login_or_signup p {
+    color: #C2C2C2;
+}
+
+.login_or_signup .or div {
+    width: 100%;
+    height: 1px;
+    background-color: #C2C2C2;
+}
